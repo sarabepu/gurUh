@@ -29,3 +29,7 @@ h1{
   padding-top: 5%;
   color: #f59283;
 }
+.showcase .showcase-img1 {
+  min-height: 30rem;
+  background-size: cover;
+}
