@@ -1,0 +1,31 @@
+.special-button{
+    background-color: #ff914d  ; 
+    color: white;
+  }
+h1{
+    font-size: 80px !important;
+}
+
+.navbar-special{
+  background-color: #ff914d ; 
+}
+.logo-image{
+  background-color:transparent;
+}
+
+.nav-link{
+  color: white !important;
+}
+
+.parrafo-special{
+  font-size: 150%;
+}
+.quienes-somos{
+  padding: 5% 5% 2% 5%;
+}
+
+.title-special{
+  text-align: center;
+  padding-top: 5%;
+  color: #f59283;
+}
