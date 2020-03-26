@@ -1,32 +1,31 @@
 {
-    "title": "Landing Page",
+    "title": "GurUh",
     "name": "startbootstrap-landing-page",
-    "version": "5.0.7",
+    "version": "1.0.0",
     "scripts": {
         "start": "node_modules/.bin/gulp watch"
     },
-    "description": "An HTML landing page template built with Bootstrap",
+    "description": "An HTML landing page built with Bootstrap",
     "keywords": [
-        "css",
-        "sass",
-        "html",
-        "responsive",
-        "theme",
-        "template"
+        "major",
+        "carrera",
+        "estudiar",
+        "orientacion vocacional",
+        "universidad"
     ],
-    "homepage": "https://startbootstrap.com/template-overviews/landing-page",
+    "homepage": "guruh.ml",
     "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/sarabepu/gurUh/issues",
+        "email": "sarabeja98@gmail.com"
     },
     "license": "MIT",
     "author": "Start Bootstrap",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "David Miller (sarabepu.github.io/website)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-landing-page.git"
+        "url": "https://github.com/sarabepu/gurUh"
     },
     "dependencies": {
         "@fortawesome/fontawesome-free": "5.10.2",
