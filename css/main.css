@@ -1,35 +1,45 @@
-.special-button{
-    background-color: #ff914d  ; 
-    color: white;
-  }
-h1{
-    font-size: 400% !important;
+.special-button {
+  background-color: #ff914d;
+  color: white;
 }
 
-.navbar-special{
-  background-color: #ff914d ; 
-}
-.logo-image{
-  background-color:transparent;
+h1 {
+  font-size: 400% !important;
 }
 
-.nav-link{
+.navbar-special {
+  background-color: #ff914d;
+}
+
+.logo-image {
+  background-color: transparent;
+}
+
+.nav-link {
   color: white !important;
 }
 
-.parrafo-special{
+.parrafo-special {
   font-size: 150%;
 }
-.quienes-somos{
+
+.quienes-somos {
   padding: 5% 5% 2% 5%;
 }
 
-.title-special{
+.title-special {
   text-align: center;
   padding-top: 5%;
   color: #f59283;
 }
+
 .showcase .showcase-img1 {
   min-height: 30rem;
   background-size: cover;
+}
+
+.disableButton {
+  pointer-events: none !important;
+  background-color: rgb(255, 161, 102) !important;
+  color: #ffffffa6;
 }
