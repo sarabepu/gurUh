@@ -54,6 +54,7 @@ h1 {
 }
 .video-presentacion{
   padding-top: 1rem;
+  padding-bottom: 3rem;
 }
 .disableButton {
   pointer-events: none !important;
