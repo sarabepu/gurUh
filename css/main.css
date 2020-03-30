@@ -52,7 +52,9 @@ h1 {
   min-height: 30rem;
   background-size: contain;
 }
-
+.video-presentacion{
+  padding-top: 1rem;
+}
 .disableButton {
   pointer-events: none !important;
   background-color: rgb(255, 161, 102) !important;

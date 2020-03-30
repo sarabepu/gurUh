@@ -110,7 +110,7 @@ header.masthead h1 {
 background: linear-gradient(0deg, rgba(250,207,136,1) 0%, rgba(244,138,130,1) 100%);
   background-size: cover;
   padding-top: 2rem;
-  padding-bottom: 7rem;
+  padding-bottom: 1rem;
 }
 
 .call-to-action .overlay {
