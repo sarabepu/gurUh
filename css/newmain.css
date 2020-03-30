@@ -1,0 +1,68 @@
+.special-button {
+    background-color: #ff914d;
+    color: white;
+  }
+  
+  h1 {
+    font-size: 400% !important;
+  }
+  
+  .navbar-special {
+    background-color: #ff914d;
+  }
+  
+  .logo-image {
+    background-color: transparent;
+    width: 100%;
+    height: auto;
+  }
+  
+  .nav-link {
+    color: white !important;
+  }
+  
+  .parrafo-special {
+    font-size: 150%;
+  }
+  
+  .quienes-somos {
+    padding: 5% 5% 2% 5%;
+  }
+  
+  .title-special {
+    text-align: center;
+    padding-top: 5%;
+    color:white;
+  }
+  .text-testimonials{
+    color:white
+  }
+  .text-how{
+    padding: 0 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .title-how {
+    text-align: center;
+    padding-top: 5%;
+    color:#f3a7a2;
+  }
+  
+  .showcase .showcase-img1 {
+    min-height: 30rem;
+    background-size: contain;
+  }
+  .video-presentacion{
+    padding-top: 1rem;
+    padding-bottom: 3rem;
+  }
+  .disableButton {
+    pointer-events: none !important;
+    background-color: rgb(255, 161, 102) !important;
+    color: #ffffffa6;
+  }
+  
+  .navbar-dark .navbar-toggler {
+    color: rgb(255, 255, 255) !important;
+    border-color: rgba(255,255,255,.1);
+  }
