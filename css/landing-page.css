@@ -90,8 +90,9 @@ header.masthead h1 {
 }
 
 .testimonials {
-  padding-top: 7rem;
-  padding-bottom: 7rem;
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+  background-color: #fac988;
 }
 
 .testimonials .testimonial-item {
@@ -105,10 +106,10 @@ header.masthead h1 {
 
 .call-to-action {
   position: relative;
-  background-color: #343a40;
-  background: url("../img/bg-masthead.jpg") no-repeat center center;
+  background: rgb(250,207,136);
+background: linear-gradient(0deg, rgba(250,207,136,1) 0%, rgba(244,138,130,1) 100%);
   background-size: cover;
-  padding-top: 7rem;
+  padding-top: 2rem;
   padding-bottom: 7rem;
 }
 
