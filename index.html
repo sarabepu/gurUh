@@ -15,39 +15,39 @@
     gtag('js', new Date());
     gtag('config', 'UA-162139755-1');
   </script>
-  
+
   <!-- Hotjar Tracking Code for guruh.ml -->
   <script>
-    (function(h,o,t,j,a,r){
-        h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
-        h._hjSettings={hjid:1747543,hjsv:6};
-        a=o.getElementsByTagName('head')[0];
-        r=o.createElement('script');r.async=1;
-        r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
-        a.appendChild(r);
-    })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    (function (h, o, t, j, a, r) {
+      h.hj = h.hj || function () { (h.hj.q = h.hj.q || []).push(arguments) };
+      h._hjSettings = { hjid: 1747543, hjsv: 6 };
+      a = o.getElementsByTagName('head')[0];
+      r = o.createElement('script'); r.async = 1;
+      r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+      a.appendChild(r);
+    })(window, document, 'https://static.hotjar.com/c/hotjar-', '.js?sv=');
   </script>
 
   <title>GurUh - Landing Page </title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
   <!-- Custom fonts for this template -->
-  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
+  <link href="./vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="./vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
   <!-- Custom styles for this template -->
-  <link href="css/landing-page.css" rel="stylesheet">
-  <link href="css/main.css" rel="stylesheet">
-  <link rel="icon" href="img/logo.ico">
+  <link href="./css/new-landing.css" rel="stylesheet">
+  <link href="./css/newmain.css" rel="stylesheet">
+  <link rel="icon" href="./img/logo.ico">
 </head>
 
 <body id="page-top">
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark navbar-special fixed-top ">
-    <div class="container">
+    <div class="container margin-container">
       <a class="navbar-brand js-scroll-trigger" href="#page-top">G U R U H</a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
         data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
@@ -55,19 +55,21 @@
         Menu
         <i class="fas fa-bars"></i>
       </button>
-      <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#about">Quiénes somos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#who">A quiénes ayudamos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#signup">Registrate</a>
-          </li>
-        </ul>
-      </div>
+
+    </div>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#about">¿Quiénes Somos?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger" href="#who">¿A Quién Ayudamos?</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link js-scroll-trigger btn special-button btn-lg signup-button" href="http://www.app.guruh.ml/"> Inicia sesión</a>
+        </li>
+      </ul>
     </div>
   </nav>
 
@@ -80,12 +82,16 @@
 
       <div class="col-xl-9 mx-auto">
 
-        <img class="logo-image" src="img/logo.png" alt="Logo de lapiz con forma de cohete">
+        <img class="logo-image" src="./img/logo.png" alt="Logo de lapiz con forma de cohete">
         <h1 class=" main-title">GurUh</h1>
         <p class="parrafo-special"> No sabes que estudiar Uh? <br>Nosotros te ayudamos a conocer tu sueño. </p>
 
-        <a href="#about" class="btn special-button btn-lg">Conócenos</a>
-
+        <a href="http://www.app.guruh.ml/" class="btn special-button btn-lg">Inicia sesión</a>
+        <br>
+        <br>
+        <p class="parrafo-2"> ¿Quieres ayudarnos a guiar jóvenes? 
+          <a href="#singup" >Registrate como GurUh</a></p>
+        
 
       </div>
     </div>
@@ -93,24 +99,65 @@
   </header>
 
 
+
+
+  <!-- Call to Action -->
+  <section class="call-to-action text-white text-center" id="signup">
+
+    <div class="container">
+
+      <h1 class="title-special">Registrate</h1>
+
+      <br>
+      <br>
+      <div class="row">
+
+        <div class="col-xl-6">
+          <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4 ">¿Quisieras ser un GurUh y ayudarnos a guiar jóvenes? </h2>
+            <br>
+            <h3 id="confirmRegister" class="mt-2 d-none">Gracias por registrarte, ¡Pronto te contactermos cuando
+              tengamos todo listo!</h3>
+          </div>
+          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <form id="form">
+              <div class="form-row">
+                <div class="col-xl-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" required=true name="email" class="form-control form-control-lg"
+                    placeholder="Ingresa tu email..">
+                </div>
+                <br>
+                <div class="col-xl-12 col-md-3">
+                  <button name="button" class="btn btn-block btn-lg special-button">Registrate!</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="col-xl-6">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item video-presentacion" allowfullscreen="0"
+              src="https://www.youtube.com/embed/jmrleoJjoRw?rel=0?version=3&autoplay=0&controls=1&&showinfo=0"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- Image Showcases -->
   <section id="about" class="showcase">
 
-    <h1 class="title-special">Quiénes somos</h1>
-    <div class="features-icons-icon d-flex">
-      <i class="fa-information m-auto text-primary"></i>
+    <h1 class="title-how">Quiénes Somos</h1>
+    <br>
 
-    </div>
-
-    <h2 class="quienes-somos">Somos una herramienta de información que te ayuda a tomar una buena decisión en cuanto a
-      qué carrera estudiar.
-      Nuestra solución tiene tres pilares:</h2>
     <div class="container-fluid p-0">
-
+      <p class="lead text-how">Somos una herramienta de información que te ayuda a tomar una buena decisión en cuanto a
+        qué carrera estudiar.
+        Nuestra solución tiene tres pilares:</p>
       <div class="row no-gutters">
 
         <div class="col-lg-6 order-lg-2 text-white showcase-img1"
-          style="background-image: url('img/helping-hand.jpg');">
+          style="background-image: url('./img/helping-hand.jpg');">
         </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Conexión</h2>
@@ -121,7 +168,7 @@
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
+        <div class="col-lg-6 text-white showcase-img" style="background-image: url('./img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
           <h2>Acercamiento</h2>
           <p class="lead mb-0"> Muchos estudiantes entran a una carrera solo por la profesión pero no tienen idea de lo
@@ -131,7 +178,7 @@
         </div>
       </div>
       <div class="row no-gutters">
-        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('img/graficos.jpg');">
+        <div class="col-lg-6 order-lg-2 text-white showcase-img" style="background-image: url('./img/graficos.jpg');">
         </div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
           <h2>Seguimiento</h2>
@@ -143,28 +190,31 @@
   </section>
 
   <!-- Testimonials -->
-  <section class="testimonials text-center bg-light" id="who">
+  <section class="testimonials text-center " id="who">
     <div class="container">
-      <h2 class="mb-5">A quiénes ayudamos</h2>
+      <h1 class="mb-5 text-testimonials">A Quién Ayudamos</h1>
       <div class="row">
+
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-1.jpg" alt="young man icon">
-            <h5>Universitarios</h5>
-            <p class="font-weight-light mb-0">Estudiantes universitarios que están considerando desertar su carrera.</p>
-          </div>
-        </div>
-        <div class="col-lg-4">
-          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-2.jpg" alt="highschool student icon">
+            <img class="img-fluid rounded-circle mb-3" src="./img/testimonials-2.jpg" alt="highschool student icon">
             <h5>Bachilleres</h5>
             <p class="font-weight-light mb-0">Jóvenes en los últimos grados del colegio que no tienen certeza de que
               estudiar.</p>
           </div>
         </div>
+
         <div class="col-lg-4">
           <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-            <img class="img-fluid rounded-circle mb-3" src="img/testimonials-3.jpg" alt="university icon">
+            <img class="img-fluid rounded-circle mb-3" src="./img/testimonials-1.jpg" alt="young man icon">
+            <h5>Universitarios</h5>
+            <p class="font-weight-light mb-0">Estudiantes universitarios que están considerando desertar su carrera.</p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <div class="testimonial-item mx-auto mb-5 mb-lg-0">
+            <img class="img-fluid rounded-circle mb-3" src="./img/testimonials-3.jpg" alt="university icon">
             <h5>Universidades</h5>
             <p class="font-weight-light mb-0">Universidades que quieren bajar sus indices de deserción. </p>
           </div>
@@ -173,30 +223,7 @@
     </div>
   </section>
 
-  <!-- Call to Action -->
-  <section class="call-to-action text-white text-center" id="signup">
-    <div class="overlay"></div>
-    <div class="container">
-      <div class="row">
-        <div class="col-xl-9 mx-auto">
-          <h2 class="mb-4">Quieres que te acompañemos en esta decisión o quieres ayudarnos a guiar jóvenes? </h2>
-          <h3 id="confirmRegister" class="mt-2 d-none">Gracias por registrarte, ¡Pronto te contactermos!</h3>
-        </div>
-        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-          <form id="form">
-            <div class="form-row">
-              <div class="col-12 col-md-9 mb-2 mb-md-0">
-                <input type="email" name="email" class="form-control form-control-lg" placeholder="Ingresa tu email...">
-              </div>
-              <div class="col-12 col-md-3">
-                <button name="button" class="btn btn-block btn-lg special-button">Registrate!</button>
-              </div>
-            </div>
-          </form>
-        </div>
-      </div>
-    </div>
-  </section>
+
 
   <!-- Footer -->
   <footer class="footer bg-light">
@@ -210,8 +237,8 @@
   </footer>
 
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./vendor/jquery/jquery.min.js"></script>
+  <script src="./vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="./js//apiConnect.js"></script>
 </body>
 
