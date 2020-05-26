@@ -1,11 +1,11 @@
-const $form = document.querySelector('#form');
+/* const $form = document.querySelector('#form');
 $form.addEventListener('submit', (event) => {
     event.preventDefault()
     event.currentTarget.email.disabled = true;
     event.currentTarget.email.readOnly = true;
     event.currentTarget.button.classList.add('disableButton');
     sendLead(event.currentTarget.email.value);
-})
+}) */
 
 function sendLead(data) {
     fetch('https://cors-anywhere.herokuapp.com/'+'http://54.175.170.47:3000/api/v1/leads/', {
